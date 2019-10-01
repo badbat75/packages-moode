@@ -1,11 +1,11 @@
-# recoll-1.25.9
-PKG_URL="https://www.lesbonscomptes.com/recoll/recoll-1.25.9.tar.gz"
+# recoll_1.26.1
+PKG_URL="https://www.lesbonscomptes.com/recoll/recoll-1.26.1.tar.gz"
 AUTOCONF=0
 PATCHES="recoll-python-bbxb.patch"
 BUILD_PROCESS=configmake
 CONF_FLAGS="--libdir=\${BUILD_LIBDIR} --enable-recollq --enable-xadump --disable-python-chm --disable-x11mon --disable-qtgui --disable-testmains"
 INST_CMD=install-strip
-PKG_DEPS=raspbian/xapian-core_1.4.3-2+deb9u3
+PKG_DEPS=moode/xapian-core_1.4.13
 PKG_CXXFLAGS="-fno-strict-aliasing"
 PKG_LDFLAGS="-lpython${PYTHONBIN_VER}m"
 

@@ -1,5 +1,5 @@
-# mpc-0.32
-PKG_URL="https://www.musicpd.org/download/mpc/0/mpc-0.32.tar.xz"
+# mpc_0.33
+PKG_URL="https://www.musicpd.org/download/mpc/0/mpc-0.33.tar.xz"
 BUILD_PROCESS=mesonninja
 # CONF_FLAGS=""
 INST_CMD=install-strip

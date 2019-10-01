@@ -1,5 +1,5 @@
-# xapian-core_1.4.12
-PKG_URL="https://oligarchy.co.uk/xapian/1.4.12/xapian-core-1.4.12.tar.xz"
+# xapian-core_1.4.13
+PKG_URL="https://oligarchy.co.uk/xapian/1.4.13/xapian-core-1.4.13.tar.xz"
 BUILD_PROCESS=configmake
 #CONF_FLAGS=
 INST_CMD=install-strip

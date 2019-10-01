@@ -1,5 +1,5 @@
-# libupnp_1.8.4
-PKG_URL="https://downloads.sourceforge.net/project/pupnp/pupnp/libupnp-1.8.4/libupnp-1.8.4.tar.bz2"
+# libupnp_1.8.5-26c32338
+PKG_URL="https://github.com/mrjimenez/pupnp/archive/26c32338323422c280da0da656ca911b9879f3c2.tar.gz"
 #PATCHDEB=""
 BUILD_PROCESS=configmake
 CONF_FLAGS="--without-documentation --disable-samples --enable-ipv6 --disable-test"
